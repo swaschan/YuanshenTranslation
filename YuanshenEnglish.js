@@ -12,16 +12,14 @@
 $(function() {
 
     //CSS Styling
-    function addCss(fileName) {
-        var link = $("<link />", {
-            rel: "stylesheet",
-            type: "text/css",
-            href: fileName
-        })
-        $('head').append(link);
+    function initCSS() {
+        const ele = document.createElement('style');
+        ele.type = 'text/css';
+        ele.innerHTML = "@import url(https://raw.githubusercontent.com/swaschan/YuanshenTranslation/master/main.css);";
+        document.head.appendChild(ele);
     }
 
-    addCss("https://raw.githubusercontent.com/swaschan/YuanshenTranslation/master/main.css");
+    initCSS();
 
     var labelmenu = {
         '特性': 'Collectibles',
