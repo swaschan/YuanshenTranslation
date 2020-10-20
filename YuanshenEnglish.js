@@ -18,7 +18,7 @@ $(function() {
         ele.type = 'text/css';
         ele.innerHTML = `
     * {
-      @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap);li.con-type-label{font-size:1rem;font-family:'Open Sans';text-transform:capitalize}.options-list .map-opts{font-family:'Open Sans';font-size:1.1rem;text-transform:capitalize}p.selector-hint{font-family:'Open Sans';font-size:20px}p.opt-selector{font-family:'Open Sans'}p.opt-selector font{font-family:'Open Sans';font-size:1rem}span.area-text font{font-family:'Open Sans';font-size:1.1rem;font-weight:700}.myPopName{font-family:'Open Sans';font-size:1.21rem;text-transform:uppercase}.myPopComment{font-family:'Open Sans';font-weight:500}.myPopSwitchTodo p{font-family:'Open Sans';letter-spacing:inherit;text-transform:uppercase;font-size:.95rem}.myPopSwitchDone p{font-family:'Open Sans';letter-spacing:inherit;text-transform:uppercase;font-size:.95rem}.person-div font{font-family:'Open Sans';font-size:1.2rem}
+      @import url(https://raw.githubusercontent.com/swaschan/YuanshenTranslation/master/main.css);
     }
   `;
         document.head.appendChild(ele);
