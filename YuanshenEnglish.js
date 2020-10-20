@@ -6,7 +6,6 @@
 // @author       swaschan
 // @match        https://yuanshen.site/index.html
 // @require http://code.jquery.com/jquery-3.4.1.min.js
-// @grant      GM_addStyle
 // ==/UserScript==
 
 
